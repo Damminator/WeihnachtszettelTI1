@@ -59,8 +59,8 @@ public class Data {
 			uebergaenge.add(new Transition(scanner.next(),scanner.next(),scanner.next()));
 			
 		}
-		System.out.println(("closing scanner"));
-		scanner.close();
+		
+		
 		
 		
 	}

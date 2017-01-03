@@ -1,12 +1,19 @@
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		Tester tester = new Tester();
+		Scanner sc = new Scanner(System.in);
 		
-		tester.test();
+		Tester tester = new Tester(sc);
 		
+	
+		
+		if(tester.test()==true){
+			System.out.println("verzogen");
+		}
+		else System.out.println("fehlerhaft");
 		
 		
 
